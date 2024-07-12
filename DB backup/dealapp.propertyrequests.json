@@ -1,0 +1,756 @@
+[{
+  "_id": {
+    "$oid": "668dc8c099c43e463c1c0a4d"
+  },
+  "propertyType": "VILLA",
+  "area": 250,
+  "price": 500000,
+  "city": "New York",
+  "district": "manhattan",
+  "description": "A beautiful villa in the heart of the city.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668dc8ffdf631a5133fe27b7"
+  },
+  "propertyType": "VILLA",
+  "area": 250,
+  "price": 450000,
+  "city": "Los Angeles",
+  "district": "beverly hills",
+  "description": "Luxurious villa with a pool and garden in Beverly Hills.",
+  "user": {
+    "$oid": "66912a5355cc450986140c3b"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668dca6ca659685eecf5b65c"
+  },
+  "propertyType": "HOUSE",
+  "area": 180,
+  "price": 300000,
+  "city": "San Francisco",
+  "district": "mission district",
+  "description": "Cozy house in the vibrant Mission District.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668dca8ca659685eecf5b664"
+  },
+  "propertyType": "APARTMENT",
+  "area": 75,
+  "price": 100000,
+  "city": "Chicago",
+  "district": "lincoln Park",
+  "description": "Modern apartment with great amenities in Lincoln Park.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668dcaa1a659685eecf5b668"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 180000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach. St.22",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668e4a31b4fe6260a68add24"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 195000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach. St.22",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66907908fcdf771151baf8fa"
+  },
+  "propertyType": "VILLA",
+  "area": 350,
+  "price": 600000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908b9fd35a8ef6f2d62e60"
+  },
+  "propertyType": "VILLA",
+  "area": 350,
+  "price": 600000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908ba5d35a8ef6f2d62e61"
+  },
+  "propertyType": "VILLA",
+  "area": 350,
+  "price": 600000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908babd35a8ef6f2d62e62"
+  },
+  "propertyType": "VILLA",
+  "area": 350,
+  "price": 600000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908bafd35a8ef6f2d62e63"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 179000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908bb2d35a8ef6f2d62e64"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 185000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908bb6d35a8ef6f2d62e65"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 180000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908bbad35a8ef6f2d62e66"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 182000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908bbed35a8ef6f2d62e67"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 190000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908bc2d35a8ef6f2d62e68"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 187000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908cc4d35a8ef6f2d62e69"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 187000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908cc8d35a8ef6f2d62e6a"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 187000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908cccd35a8ef6f2d62e6b"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 187000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908cd5d35a8ef6f2d62e6c"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 187000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908f50d35a8ef6f2d62e6d"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 187000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66912a94097ba695ddc186e2"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 180000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach. St.22",
+  "user": {
+    "$oid": "66912a8655cc450986140c41"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66912aa7097ba695ddc186e3"
+  },
+  "propertyType": "VILLA",
+  "area": 250,
+  "price": 450000,
+  "city": "Los Angeles",
+  "district": "beverly hills",
+  "description": "Luxurious villa with a pool and garden in Beverly Hills.",
+  "user": {
+    "$oid": "66912a9c55cc450986140c44"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66912ab6097ba695ddc186e4"
+  },
+  "propertyType": "VILLA",
+  "area": 250,
+  "price": 500000,
+  "city": "New York",
+  "district": "manhattan",
+  "description": "A beautiful villa in the heart of the city.",
+  "user": {
+    "$oid": "66912aad55cc450986140c47"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66912ac7097ba695ddc186e5"
+  },
+  "propertyType": "VILLA",
+  "area": 250,
+  "price": 450000,
+  "city": "Los Angeles",
+  "district": "beverly hills",
+  "description": "Luxurious villa with a pool and garden in Beverly Hills.",
+  "user": {
+    "$oid": "66912abf55cc450986140c4b"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66912ae6097ba695ddc186e6"
+  },
+  "propertyType": "VILLA",
+  "area": 250,
+  "price": 500000,
+  "city": "New York",
+  "district": "manhattan",
+  "description": "A beautiful villa in the heart of the city.",
+  "user": {
+    "$oid": "66912ad755cc450986140c51"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66912b01097ba695ddc186e7"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 182000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "66912af355cc450986140c56"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66912b17097ba695ddc186e8"
+  },
+  "propertyType": "VILLA",
+  "area": 250,
+  "price": 500000,
+  "city": "New York",
+  "district": "manhattan",
+  "description": "A beautiful villa in the heart of the city.",
+  "user": {
+    "$oid": "66912b0c55cc450986140c59"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66913168097ba695ddc186e9"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 187000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66913173097ba695ddc186ea"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 187000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6691317e097ba695ddc186eb"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 187000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66913184097ba695ddc186ec"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 187000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669131ce097ba695ddc186ed"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 187000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669131d4097ba695ddc186ee"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 187000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669131db097ba695ddc186ef"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 187000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T13:00:21.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66914025c429e3ab762514ca"
+  },
+  "propertyType": "VILLA",
+  "area": 900,
+  "price": 1520000,
+  "city": "Florida",
+  "district": "district 5",
+  "description": "just for testing",
+  "user": {
+    "$oid": "66913f2bc429e3ab762514c1"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T14:39:33.873Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66914d91e0543bd5a3807707"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 180000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "TEST UPDATE",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T15:36:49.436Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66914f51f33aa8c72ade61fc"
+  },
+  "propertyType": "VILLA",
+  "area": 350,
+  "price": 600000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T15:44:17.348Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66914ff8030cda81788be47b"
+  },
+  "propertyType": "VILLA",
+  "area": 350,
+  "price": 600000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T15:47:04.139Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66915017e9bdec4b0c6b67bd"
+  },
+  "propertyType": "VILLA",
+  "area": 350,
+  "price": 600000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T15:47:35.324Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6691549f8f7d15aae820b242"
+  },
+  "propertyType": "VILLA",
+  "area": 250,
+  "price": 750000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "6691534d8f7d15aae820b235"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T16:06:55.917Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669157630c4ef0cfd5676ebb"
+  },
+  "propertyType": "VILLA",
+  "area": 350,
+  "price": 600000,
+  "city": "Miami",
+  "district": "miami beach",
+  "description": "Stunning villa with ocean views in Miami Beach.",
+  "user": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "refreshedAt": {
+    "$date": "2024-07-12T16:18:43.285Z"
+  },
+  "__v": 0
+}]

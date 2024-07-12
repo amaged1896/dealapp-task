@@ -1,0 +1,143 @@
+[{
+  "_id": {
+    "$oid": "668da158ad3a27336fc00c63"
+  },
+  "name": "Ahmed Maged",
+  "phone": "01145958585",
+  "password": "$2a$10$/50rY/RE3j5Gx3qlkulTWOoI3EAIV7TbuPm86vi7z/lHNKVElRjvu",
+  "role": "ADMIN",
+  "status": "ACTIVE",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668dc34fcfea5cdb6268cfdb"
+  },
+  "name": "Mostafa Ahmed",
+  "phone": "01245958585",
+  "password": "$2a$08$V9pEcAwwy79QrJ9XLGNng.cp2Txo4STg6HGYiSRimpOhJWyH//h1i",
+  "role": "CLIENT",
+  "status": "ACTIVE",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668e444e406332c66fadbd67"
+  },
+  "name": "Osama Ahmed",
+  "phone": "01545958585",
+  "password": "$2a$08$5hCxCa59o7xK7xoQo9dhZOuu14GHW2uXISdh9BS.esIvVgUgLU6sG",
+  "role": "AGENT",
+  "status": "ACTIVE",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66912a5355cc450986140c3b"
+  },
+  "name": "Mohamed Mahmoud",
+  "phone": "01234567891",
+  "password": "$2a$08$aK1jBNE3acImeXQahgtVLudjcq8mKbnuk6NdVVmB6L59uhf0f1PDy",
+  "role": "AGENT",
+  "status": "ACTIVE",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66912a8655cc450986140c41"
+  },
+  "name": "Mahmoud Ahmed",
+  "phone": "01234569865",
+  "password": "$2a$08$knR41xb/UwsZ51eRAOlj3.BDLwZC.QB4NPGDTFfhsaSB/0Pe/LURm",
+  "role": "AGENT",
+  "status": "ACTIVE",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66912a9c55cc450986140c44"
+  },
+  "name": "Hossam Adham",
+  "phone": "01234989865",
+  "password": "$2a$08$67N44K8YQZPqRqddY0ig2uwvAPc/fluvNWR9qLmUkDLZYD1QrhoaC",
+  "role": "AGENT",
+  "status": "ACTIVE",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66912aad55cc450986140c47"
+  },
+  "name": "Youssef Essam",
+  "phone": "01234966665",
+  "password": "$2a$08$jkNUMiphFnr1ga.DBWaN.upddYqSTHIjqZvQDQxUCFsokfp0KXsXC",
+  "role": "AGENT",
+  "status": "ACTIVE",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66912abf55cc450986140c4b"
+  },
+  "name": "Ahmed Hazem",
+  "phone": "01223236665",
+  "password": "$2a$08$icDXpC.aiPz8ic5wM8amfehBWrK6LnX.p3tZBKoGTcGxcFS3anf5S",
+  "role": "AGENT",
+  "status": "ACTIVE",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66912ad755cc450986140c51"
+  },
+  "name": "Mohamed Ashraf",
+  "phone": "01223299665",
+  "password": "$2a$08$DQHiApT/pKpxqFY21PorHOSrIo5tw9odCn8YvjijZG4sp044mvJ3u",
+  "role": "AGENT",
+  "status": "ACTIVE",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66912af355cc450986140c56"
+  },
+  "name": "Mahmoud Ahmed",
+  "phone": "01223299225",
+  "password": "$2a$08$2h.65ro6WGU6RqzuSvRoj.n95DViyDsx1v0dhiblFuhpuPMxf5iJS",
+  "role": "AGENT",
+  "status": "ACTIVE",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66912b0c55cc450986140c59"
+  },
+  "name": "Mahmoud Ibrahim",
+  "phone": "01113299225",
+  "password": "$2a$08$9oAxyrOXn3dQnYwtpBw/Fen8uZe8G4JBTmVHcVCNSoaaj3vw.iUVq",
+  "role": "AGENT",
+  "status": "ACTIVE",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66913f2bc429e3ab762514c1"
+  },
+  "name": "Osama Ahmed",
+  "phone": "01221239821",
+  "password": "$2a$08$PiCa5Y41VINyAceF6b1Kx.X7iG/vOQkx3oCamf/B6lHZvroOd6OVy",
+  "role": "CLIENT",
+  "status": "ACTIVE",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6691534d8f7d15aae820b235"
+  },
+  "name": "Ahmed Khalil",
+  "phone": "01113288225",
+  "password": "$2a$08$IgiEMhmte.sOkGqsVUz.7.kcbpf2kQ2UyoYXh5LzdbmmtlcBiCThC",
+  "role": "CLIENT",
+  "status": "ACTIVE",
+  "__v": 0
+}]

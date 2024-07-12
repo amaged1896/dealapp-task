@@ -1,0 +1,311 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Swagger DealApp",
+    "description": "DealApp API",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "host": "localhost:3000",
+  "basePath": "/api/v1",
+  "tags": [
+    {
+      "name": "user",
+      "description": "API for authentication"
+    },
+    {
+      "name": "Property Requests",
+      "description": "API for property requests"
+    },
+    {
+      "name": "Ads",
+      "description": "API for advertisements"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "securityDefinitions": {
+    "Bearer": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header",
+      "description": "Enter your bearer token in the format **Bearer &lt;token&gt;**"
+    }
+  },
+  "paths": {
+    "/user/Signup": {
+      "post": {
+        "tags": ["user"],
+        "summary": "Signup",
+        "description": "Register a new user",
+        "operationId": "Signup",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "User Signup details",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Signup"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully registered",
+            "schema": {
+              "$ref": "#/definitions/Signup"
+            }
+          }
+        }
+      }
+    },
+    "/user/login": {
+      "post": {
+        "tags": ["user"],
+        "summary": "User Login",
+        "description": "Authenticate a user",
+        "operationId": "login",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "User login details",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Login"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully authenticated",
+            "schema": {
+              "$ref": "#/definitions/Login"
+            }
+          }
+        }
+      }
+    },
+    "/propertyRequests": {
+      "post": {
+        "tags": ["Property Requests"],
+        "summary": "Create a new property request",
+        "description": "Create a new property request",
+        "operationId": "createPropertyRequest",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Property Request object",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/PropertyRequest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully created a property request",
+            "schema": {
+              "$ref": "#/definitions/PropertyRequest"
+            }
+          }
+        },
+        "security": [
+          {
+            "Bearer": []
+          }
+        ]
+      }
+    },
+    "/ads/statistics": {
+      "get": {
+        "tags": ["Ads"],
+        "summary": "Get user statistics",
+        "description": "Retrieve statistics for users",
+        "operationId": "getUserStatistics",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved statistics",
+            "schema": {
+              "type": "object",
+              "$ref": "#/definitions/UserStatistics"
+            }
+          }
+        },
+        "security": [
+          {
+            "Bearer": []
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "Signup": {
+      "type": "object",
+      "required": [
+        "name",
+        "phone",
+        "password",
+        "role"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "confirmPassword": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string",
+          "enum": ["CLIENT", "AGENT"]
+        }
+      }
+    },
+    "Login": {
+      "type": "object",
+      "required": [
+        "phone",
+        "password"
+      ],
+      "properties": {
+        "phone": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+    "PropertyRequest": {
+      "type": "object",
+      "required": [
+        "propertyType",
+        "area",
+        "price",
+        "city",
+        "district",
+        "description",
+        "user"
+      ],
+      "properties": {
+        "propertyType": {
+          "type": "string",
+          "enum": ["VILLA", "HOUSE", "LAND", "APARTMENT"]
+        },
+        "area": {
+          "type": "number"
+        },
+        "price": {
+          "type": "number"
+        },
+        "city": {
+          "type": "string"
+        },
+        "district": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "user": {
+          "type": "string"
+        }
+      }
+    },
+    "UserStatistics": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "_id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "phone": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string"
+              },
+              "adsCount": {
+                "type": "number"
+              },
+              "totalAdsAmount": {
+                "type": "number"
+              },
+              "requestsCount": {
+                "type": "number"
+              },
+              "totalRequestsAmount": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "page": {
+          "type": "number"
+        },
+        "limit": {
+          "type": "number"
+        },
+        "total": {
+          "type": "number"
+        },
+        "hasNextPage": {
+          "type": "boolean"
+        },
+        "hasPreviousPage": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

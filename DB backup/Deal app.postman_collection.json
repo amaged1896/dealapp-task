@@ -1,0 +1,333 @@
+{
+	"info": {
+		"_postman_id": "bbfae15f-6a91-4dc3-b93f-df5a4e71e659",
+		"name": "Deal app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33377259"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Mahmoud Ahmed\",\r\n    \"password\":\"Mahmoud@123\",\r\n    \"confirmPassword\":\"Mahmoud@123\",\r\n    \"phone\":\"01113299225\",\r\n    \"role\":\"AGENT\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/v1/user/signup",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deactivate user",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGRhMTU4YWQzYTI3MzM2ZmMwMGM2MyIsIm5hbWUiOiJBaG1lZCBNYWdlZCIsInJvbGUiOiJBRE1JTiIsInBob25lIjoiMDExNDU5NTg1ODUiLCJzdGF0dXMiOiJBQ1RJVkUiLCJpYXQiOjE3MjA3OTc4NzksImV4cCI6MTcyMDk3MDY3OX0.ddZlCURXVY7DoI2n4Ue1xi-QbawwhytqHAcg74W2G7A",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/v1/user/deactivate/668dc34fcfea5cdb6268cfdb",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"deactivate",
+								"668dc34fcfea5cdb6268cfdb"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\":\"Ahmed@123\",\r\n    \"phone\":\"01145958585\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/v1/user/login",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "my-ads-requests",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGU0NDRlNDA2MzMyYzY2ZmFkYmQ2NyIsIm5hbWUiOiJNYWhtb3VkIEFobWVkIiwicm9sZSI6IkFHRU5UIiwicGhvbmUiOiIwMTU0NTk1ODU4NSIsInN0YXR1cyI6IkFDVElWRSIsImlhdCI6MTcyMDcyNzAyOCwiZXhwIjoxNzIwODk5ODI4fQ.ZCHFvxRXKRgeZZ1IN3uTNUSYUr11zNbyysi7JwA9VkI",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:3000/api/v1/user/my-ads-requests",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"my-ads-requests"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Property Requests",
+			"item": [
+				{
+					"name": "create property request",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGRjMzRmY2ZlYTVjZGI2MjY4Y2ZkYiIsIm5hbWUiOiJNb3N0YWZhIEFobWVkIiwicm9sZSI6IkNMSUVOVCIsInBob25lIjoiMDEyNDU5NTg1ODUiLCJzdGF0dXMiOiJBQ1RJVkUiLCJpYXQiOjE3MjA3NDQxODgsImV4cCI6MTcyMDkxNjk4OH0.rCHrxIUD7-o4yXFsTlfFMTjr3irQ_kZaCft-mXHtybg",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"propertyType\": \"VILLA\",\r\n    \"area\": 350,\r\n    \"price\": 600000,\r\n    \"city\": \"Miami\",\r\n    \"district\": \"Miami Beach\",\r\n    \"description\": \"Stunning villa with ocean views in Miami Beach.\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/v1/propertyRequests",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"propertyRequests"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update property request",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGRjMzRmY2ZlYTVjZGI2MjY4Y2ZkYiIsIm5hbWUiOiJNb3N0YWZhIEFobWVkIiwicm9sZSI6IkNMSUVOVCIsInBob25lIjoiMDEyNDU5NTg1ODUiLCJzdGF0dXMiOiJBQ1RJVkUiLCJpYXQiOjE3MjA3NDQxODgsImV4cCI6MTcyMDkxNjk4OH0.rCHrxIUD7-o4yXFsTlfFMTjr3irQ_kZaCft-mXHtybg",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\": \"TEST UPDATE\",\r\n    \"area\": 600,\r\n    \"price\": 180000\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/v1/propertyRequests/66914d91e0543bd5a3807707",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"propertyRequests",
+								"66914d91e0543bd5a3807707"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Ads",
+			"item": [
+				{
+					"name": "create ad",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OTEyYWFkNTVjYzQ1MDk4NjE0MGM0NyIsIm5hbWUiOiJNYWhtb3VkIEFobWVkIiwicm9sZSI6IkFHRU5UIiwicGhvbmUiOiIwMTIzNDk2NjY2NSIsInN0YXR1cyI6IkFDVElWRSIsImlhdCI6MTcyMDc5ODY4NCwiZXhwIjoxNzIwOTcxNDg0fQ.ZUrogW060ZZxHEBtDYsXR_7AqQxS91moLlg8Z8asvqk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"propertyType\": \"LAND\",\r\n        \"area\": 550,\r\n        \"price\": 210000,\r\n        \"city\": \"Austin\",\r\n        \"district\": \"Downtown\",\r\n        \"description\": \"Spacious land in downtown Austin.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/api/v1/ads",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"ads"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "match with property requests",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGRjMzRmY2ZlYTVjZGI2MjY4Y2ZkYiIsIm5hbWUiOiJNb3N0YWZhIEFobWVkIiwicm9sZSI6IkNMSUVOVCIsInBob25lIjoiMDEyNDU5NTg1ODUiLCJzdGF0dXMiOiJBQ1RJVkUiLCJpYXQiOjE3MjA3OTEwMjcsImV4cCI6MTcyMDk2MzgyN30.T9-HYVAnAQ8fWvsOnwbVuAspyLr13NC0uKnorpCCC2w",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:3000/api/v1/ads/match/668e4919c11ea8d0831d9934?page=3",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"ads",
+								"match",
+								"668e4919c11ea8d0831d9934"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "user statistics",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGRhMTU4YWQzYTI3MzM2ZmMwMGM2MyIsIm5hbWUiOiJBaG1lZCBNYWdlZCIsInJvbGUiOiJBRE1JTiIsInBob25lIjoiMDExNDU5NTg1ODUiLCJzdGF0dXMiOiJBQ1RJVkUiLCJpYXQiOjE3MjA2MzQ1MzcsImV4cCI6MTcyMDgwNzMzN30.YpVSkT3IQd-q6aWM4Nw34jToQlJkWwlcBUiekAFSpCI",
+								"type": "text"
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "localhost:3000/api/v1/ads/statistics?page=2",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"ads",
+								"statistics"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

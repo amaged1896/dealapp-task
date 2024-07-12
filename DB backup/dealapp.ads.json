@@ -1,0 +1,195 @@
+[{
+  "_id": {
+    "$oid": "668e48e3c11ea8d0831d9920"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 185000,
+  "city": "New York",
+  "district": "Miami Beach",
+  "description": "A beautiful villa in the heart of the city.",
+  "user": {
+    "$oid": "668e444e406332c66fadbd67"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668e48f2c11ea8d0831d9924"
+  },
+  "propertyType": "VILLA",
+  "area": 250,
+  "price": 450000,
+  "city": "Los Angeles",
+  "district": "Beverly Hills",
+  "description": "Luxurious villa with a pool and garden in Beverly Hills.",
+  "user": {
+    "$oid": "668e444e406332c66fadbd67"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668e48fcc11ea8d0831d9928"
+  },
+  "propertyType": "HOUSE",
+  "area": 180,
+  "price": 300000,
+  "city": "San Francisco",
+  "district": "Mission District",
+  "description": "Cozy house in the vibrant Mission District.",
+  "user": {
+    "$oid": "668e444e406332c66fadbd67"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668e4906c11ea8d0831d992c"
+  },
+  "propertyType": "LAND",
+  "area": 500,
+  "price": 200000,
+  "city": "Austin",
+  "district": "Downtown",
+  "description": "Prime land in the heart of Austin, perfect for development.",
+  "user": {
+    "$oid": "668e444e406332c66fadbd67"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668e4910c11ea8d0831d9930"
+  },
+  "propertyType": "APARTMENT",
+  "area": 75,
+  "price": 100000,
+  "city": "Chicago",
+  "district": "Lincoln Park",
+  "description": "Modern apartment with great amenities in Lincoln Park.",
+  "user": {
+    "$oid": "668e444e406332c66fadbd67"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668e4919c11ea8d0831d9934"
+  },
+  "propertyType": "VILLA",
+  "area": 600,
+  "price": 180000,
+  "city": "Miami",
+  "district": "Miami Beach",
+  "description": "Stunning villa with ocean views in Miami Beach. St.22",
+  "user": {
+    "$oid": "668e444e406332c66fadbd67"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668e4925c11ea8d0831d9938"
+  },
+  "propertyType": "VILLA",
+  "area": 250,
+  "price": 480000,
+  "city": "New York",
+  "district": "Manhattan",
+  "description": "Luxurious villa in Manhattan.",
+  "user": {
+    "$oid": "668e444e406332c66fadbd67"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668e492dc11ea8d0831d993c"
+  },
+  "propertyType": "HOUSE",
+  "area": 200,
+  "price": 350000,
+  "city": "San Francisco",
+  "district": "Mission District",
+  "description": "Modern house in Mission District.",
+  "user": {
+    "$oid": "668e444e406332c66fadbd67"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668e4940c11ea8d0831d9940"
+  },
+  "propertyType": "LAND",
+  "area": 550,
+  "price": 210000,
+  "city": "Austin",
+  "district": "Downtown",
+  "description": "Spacious land in downtown Austin.",
+  "user": {
+    "$oid": "668e444e406332c66fadbd67"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66914deae0543bd5a3807710"
+  },
+  "propertyType": "LAND",
+  "area": 550,
+  "price": 210000,
+  "city": "Austin",
+  "district": "Downtown",
+  "description": "Spacious land in downtown Austin.",
+  "user": {
+    "$oid": "66912aad55cc450986140c47"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669150f365e3a40b23317410"
+  },
+  "propertyType": "LAND",
+  "area": 550,
+  "price": 210000,
+  "city": "Austin",
+  "district": "Downtown",
+  "description": "Spacious land in downtown Austin.",
+  "user": {
+    "$oid": "66912aad55cc450986140c47"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669157830c4ef0cfd5676ebf"
+  },
+  "propertyType": "LAND",
+  "area": 550,
+  "price": 210000,
+  "city": "Austin",
+  "district": "Downtown",
+  "description": "Spacious land in downtown Austin.",
+  "user": {
+    "$oid": "66912aad55cc450986140c47"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669157930c4ef0cfd5676ec4"
+  },
+  "propertyType": "LAND",
+  "area": 550,
+  "price": 210000,
+  "city": "Austin",
+  "district": "Downtown",
+  "description": "Spacious land in downtown Austin.",
+  "user": {
+    "$oid": "66912aad55cc450986140c47"
+  },
+  "__v": 0
+}]
